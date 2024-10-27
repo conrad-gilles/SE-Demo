@@ -1,0 +1,14 @@
+GitHub Pull Request:
+Way you to contribute to a repository on GitHub.
+To create a pull request one has to first fork the repository, forking copies the repository to your GitHub account.
+One then as to clone the repository to your machine in your code-editor.
+Preferably you should use the git branch branchName command to create a new branch on which you will make the changes you will make
+git switch branchName or git checkout branchName to switch to branch.
+
+
+git add .
+git commit -m “message”
+git push origin branchName	//pushes onto branchName not main branch!
+
+
+To merge branchName and main branch create pull request
